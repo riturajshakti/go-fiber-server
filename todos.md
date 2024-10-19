@@ -1,0 +1,16 @@
+- ✅.env
+- ✅environments: dev/prod/qa/stage
+- ✅live server using air
+- ✅colored logs
+- ✅http server
+- ✅router
+- ✅middleware
+- validation
+- jwt
+- ✅json data
+- ✅public folder serve
+- ✅file upload
+- ✅cors
+- ✅helmet
+- ✅logger
+- mongodb
