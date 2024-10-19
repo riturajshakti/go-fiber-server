@@ -14,6 +14,7 @@ func GetUsersValidation(c *fiber.Ctx) error {
 
 func GetUserValidation(c *fiber.Ctx) error {
 	println("in GetUserValidation validation")
+	c.Response().Header.Set("all-good", "very nice")
 	fmt.Println(c.Params("id"))
 	return c.Next()
 }
